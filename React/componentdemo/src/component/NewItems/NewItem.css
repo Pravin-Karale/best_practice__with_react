@@ -1,0 +1,26 @@
+.new-item{
+    background-color: rgb(196, 235, 235);
+    padding: 16px;
+    margin: 32px auto;
+    width: 800px;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgb(212, 141, 8);
+}
+.new-item button{
+    width: 150px;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 32px;
+    border:1px solid purple;
+    background-color: blueviolet;
+    color: white;   
+    border-radius: 12px;
+    margin-right: 16px;
+}
+.new-item button:hover,
+.new-item button:active{
+    background-color: rgb(226, 107, 43);
+    border-color: blueviolet;
+}

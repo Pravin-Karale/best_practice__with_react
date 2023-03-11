@@ -1,0 +1,25 @@
+.new-item_controls{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    margin-bottom:16px;
+    text-align: left;
+    
+}
+.new-item_controls leable{
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+.new-item_controls input{
+    font: inherit;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 320px;
+    max-width: 100%;
+   
+}
+.new-ite_actions{
+    text-align: right;
+}

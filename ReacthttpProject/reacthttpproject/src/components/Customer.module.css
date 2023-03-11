@@ -1,0 +1,29 @@
+.customer{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #1f5fc4;
+    border: 2px solid rgb(9, 2, 2);
+    box-shadow: 0 2px 8px rgba(164, 139, 139, 0.26);
+    border-radius: 12px;
+    text-align: center;
+    color:white;
+}
+.customer h2{
+    font-size: 2rem;
+    color: #0cef13;
+}
+.customer h3{
+    color:hsl(0, 17%, 91%);
+    margin: 0;
+    font-size: 1rem;
+}
+
+.customer h4{
+    color: rgb(22, 6, 6);
+    font-style: italic;
+}
+
+.customer p{
+    color: rgb(246, 243, 243);
+    font-style:arial;
+}

@@ -1,0 +1,56 @@
+.login {
+    width: 100%;
+    max-width: 640px;
+    margin: 32px auto;
+    padding: 32px;
+  }
+  
+  .control {
+    margin: 16px 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  
+  .control label,
+  .control input {
+    display: block;
+  }
+
+  .control label {
+    font-weight: bold;
+    flex: 1;
+    color: #463f3f;
+    margin-bottom: 8px;
+  }
+  
+  .control input {
+    flex: 3;
+    font: inherit;
+    padding: 5.6px 5.6px;
+    border-radius: 7px;
+    border: 1px solid rgb(225, 213, 213);
+  }
+  
+  .control input:focus {
+    outline: none;
+    border-color: #b72ad3;
+    background: #f0efed;
+  }
+  
+  .control.invalid input {
+    border-color: red;
+    background: #f9f7f7;
+  }
+
+  .actions {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .control {
+      align-items: center;
+      flex-direction: row;
+    }
+  
+  }

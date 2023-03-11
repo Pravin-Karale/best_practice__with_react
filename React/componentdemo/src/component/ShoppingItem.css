@@ -1,0 +1,36 @@
+.shopping-item{
+    display:flex;
+    justify-content:space-between;
+    border-radius: 15px;
+    background-color: #07aaf6;
+    color: rgb(247, 241, 241);
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0 0 0;
+    border: 2px solid black;
+ 
+}
+.shopping-item h1{
+    color: #070408;
+    font-size:40px;
+    margin: 0 15px;
+}
+.shopping-item_cost{
+    font-size: 25px;
+    margin: 0 15px;
+    border:1px solid rgb(252, 251, 248);
+    background-color: #07030d;
+}
+.shopping-item_date{
+    
+    font-size:25px;
+    margin: 0 10px;
+}
+button{
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
+    background-color: #110600;
+    color: rgb(227, 227, 230);
+    border:1px solid white;
+}

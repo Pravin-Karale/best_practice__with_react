@@ -1,0 +1,25 @@
+.format-date{
+     display:flex; 
+    flex-direction: column; 
+    
+    width: 88px;
+    height: 88px;
+    border: 1px solid #f3efef;
+    background-color: #0f0608;
+    color: rgb(245, 243, 243);
+    align-items: center;
+    justify-content: center;
+}
+.format-date_month{
+    font-size:12px;
+    font-weight:bold;
+}
+.format-date_year{
+    color:rgb(11, 124, 245);
+    font-size: 12px;
+}
+.format-date_day{
+    color: red;
+    font-size:24px;
+    font-weight:bold;
+}

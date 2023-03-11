@@ -1,0 +1,8 @@
+.home{
+    width: 80%;
+    max-width: 640%;
+    padding: 5%;
+    margin: 32px auto;
+    text-align: center;
+    color: rgb(24, 37, 228);
+}
